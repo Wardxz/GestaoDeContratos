@@ -46,7 +46,7 @@ public class FormularioRequisicao extends JFrame {
         });
 
         // Aumenta o tamanho da janela
-        setSize(900, 310);
+        setSize(970, 310);
         setLayout(new BorderLayout());
 
         JPanel painelEntrada = criarPainelEntrada();
@@ -158,7 +158,8 @@ public class FormularioRequisicao extends JFrame {
         gbc.gridwidth = 1; // Reseta o gridwidth
 
         // Assinatura para empurrar o conteúdo para o topo
-        gbc.gridx = 0; gbc.gridy = row + 1; gbc.weighty = 1.0; panel.add(new JLabel("Desenvolvido por Arthur Ward"),
+        gbc.gridx = 0; gbc.gridy = row + 1; gbc.weighty = 1.0; panel.add(new JLabel("Desenvolvido por Arthur Ward " +
+                        "(arthurwarddev@gmail.com)"),
                 gbc);
 
         return panel;
