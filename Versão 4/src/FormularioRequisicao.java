@@ -247,8 +247,7 @@ public class FormularioRequisicao extends JFrame {
             gerenciador.adicionarItem(novoItem);
 
             // 6. Feedback e Limpeza
-            JOptionPane.showMessageDialog(this, "Requisição salva com sucesso! " +
-                    "(Verifique o console)", "Sucesso", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Requisição salva com sucesso! ", "Sucesso", JOptionPane.INFORMATION_MESSAGE);
             limparCampos();
 
         } catch (NumberFormatException ex) {
